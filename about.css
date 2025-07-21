@@ -1,0 +1,82 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.bg{
+    background-image: linear-gradient(rgba(50, 50, 243, 0.753),rgba(69, 69, 185, 0.493)),url(eduford_img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+}
+ul li::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background:orangered;
+    display: block;
+    margin:5px auto;
+    transition: 0.3s ease-in;
+}
+.text{
+    font-size:25px;
+    font-weight: 400;
+    color: white;
+    margin-top:140px;
+    align-items: center;
+}
+ul li:hover:after{
+    width:100%;
+}
+ul{
+    margin-right: 60px;
+}
+li{
+     display: inline-block;
+     margin-right: 30px;
+     color: white;
+     font-size: 13px;
+     font-weight: 600;
+}
+nav{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    margin-left: 80px;
+}
+.pa{
+    background-image: url(eduford_img/about.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 45vh;
+}
+.contents h1{
+    margin-bottom: 130px; 
+    margin-right:150px;
+    font-weight:700px;
+    font-size:30px;
+    color: black;   
+}
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.q{
+    border-color: white;
+    outline: none;
+    margin-top:40px;
+    padding:13px 35px;
+    background-color:transparent;
+    font-size:13px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3 ease-out;
+}

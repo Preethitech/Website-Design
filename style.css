@@ -1,0 +1,340 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.bg{
+    background-image: linear-gradient(rgba(50, 50, 243, 0.753),rgba(69, 69, 185, 0.493)),url(eduford_img/banner.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+ul li::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background:orangered;
+    display: block;
+    margin:5px auto;
+    transition: 0.3s ease-in;
+}
+ul li:hover:after{
+    width:100%;
+}
+.logo{
+    width: 150px;
+    margin-left: 80px;
+}
+ul{
+    margin-right: 70px;
+}
+li{
+     display: inline-block;
+     margin-right: 30px;
+     color: white;
+     font-size: 13px;
+     font-weight: 600;
+}
+nav{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 55px;
+    font-weight: 600;
+    color: white;
+    margin-top:160px;
+    margin-left: 90px;
+    align-items: center;
+}
+.text p{
+    margin-top: 45px;
+    margin-left: 90px;
+    font-size: 15px;
+    color: white;
+    align-items: center;
+}
+.swe{
+    border-color: white;
+    outline: none;
+    margin-left:580px;
+    margin-top:30px;
+    padding:13px 42px;
+    transition: 0.3s ease-out;
+    background-color:transparent;
+    font-size:13px;
+    color: white;
+    cursor: pointer;
+}
+.swe:hover{
+    background-color: orangered;
+    border-color: rgb(253, 250, 60);
+}
+.course h2{
+    font-weight: 600;
+    width:100%;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.course p{
+    margin-top: 25px;
+}
+.carse{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.a{
+    width: 350px;
+    height: 190px;
+    background-color:rgba(250, 209, 218, 0.884);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 25px;
+    transition: 0.4s ease;
+}
+h3{
+    margin-left: 80px;
+    margin-bottom:20px;
+    font-size: 20px;
+}
+.course o{
+    margin-left: 18px;
+    height: 10px;
+    font-size: 15px;
+    margin-top:10px;
+    color: rgba(68, 63, 63, 0.452);
+}
+.h4{
+    margin-left: 80px;
+    margin-bottom:20px;
+    font-size: 20px;
+    
+}
+.campus h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ra{
+    width: 320px;
+    height: 470px;
+    background-image:url(eduford_img/newyork.png);
+    border-radius: 10px;
+    margin: 25px;
+    font-size: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    transition: 0.3s ease;
+}
+.camp{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.ra{
+    width: 320px;
+    height: 470px;
+    background-image:url(eduford_img/newyork.png);
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    transition: 0.3s ease;
+    
+}
+.ra:hover{
+    font-size:23px;
+    background-image:linear-gradient(rgba(228,40,14,0.528),rgba(228,46,6,0.528));
+    color:white;
+    scale:1.04;
+}
+.rb{
+    width: 320px;
+    height: 470px;
+    background-image:url(eduford_img/london.png);
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    transition: 0.3s ease;
+}
+.rb:hover{
+    background-image:linear-gradient(rgba(228,40,14,0.548),rgba(228,46,6,0.528));
+    font-size:23px;
+    scale:1.04;
+    color:white;
+}
+.rc{
+    width: 320px;
+    height: 470px;
+    background-image:url(eduford_img/washington.png);
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.rc:hover{
+    background-image:linear-gradient(rgba(228,40,14,0.548),rgba(228,46,6,0.528));
+    color:white;
+    font-size:23px;
+    scale:1.04;
+}
+.facilities h2
+{
+    font-weight:400px;
+    font-size:30px;
+    padding-bottom:20px;
+
+}
+
+.faci {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.e,.f,.g{
+    width: 350px;
+    height: 300px;
+    margin-bottom: 15px;
+}
+.e{
+    background-position: center;
+    background-size: cover;
+    background-image:url(eduford_img/library.png);
+    border-radius: 5px;
+}
+.f{
+    background-position: center;
+    background-size: cover;
+    background-image:url(eduford_img/basketball.png);
+    border-radius: 5px;
+}
+.g{
+    background-position: center;
+    background-size: cover;
+    background-image:url(eduford_img/cafeteria.png);
+    border-radius: 5px;
+}
+.k{
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+}
+.k,.p{
+    margin-right: 18px;
+    height: 10px;
+    font-size: 13px;
+    margin-top:10px;
+    font-size: 15px;
+    color: rgba(141, 141, 141, 0.637);
+}
+.faci,.k,.h3{
+    color: black;
+}
+.faci,.p,.o{
+    color: rgba(128, 128, 128, 0.63);
+    font-size: 14px;
+    
+}
+.student{
+    padding-top: 350px;
+}
+.u{
+    text-align: start;
+    color: rgb(133,129,129);
+    font-size: 15px;
+}
+.mes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.user{
+    width:40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.message{
+   padding-left: 20px;
+}
+.h{
+    float: left;
+    margin-top: 20px;
+    color: black;
+}
+.p{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 235, 233);
+
+}
+.enroll{
+    background-image: linear-gradient(rgba(14, 1, 1, 0.575),rgba(0, 0, 0, 0.664)),url(eduford_img/banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 160px;
+    width:  70%;
+    height: 60vh;
+}
+.enroll,.h2{
+    padding-top: 110px;
+    font-size: 20px;
+    color: white;
+}
+.q{
+    border-color: white;
+    outline: none;
+    margin-top:40px;
+    padding:13px 35px;
+    background-color:transparent;
+    font-size:13px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3 ease-out;
+}
+.q:hover{
+    background-color: orangered;
+    border-color: orange;
+}
+.about{
+    padding: 30px;
+}
+.p,.ee{
+   padding: 30px;
+   color: rgba(85, 85, 85, 0.575);
+   display: flex;
+   justify-content: center;
+   font-size: 15px;
+}
+.p,.we{
+    display: flex;
+    justify-content: center;
+}
